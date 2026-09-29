@@ -8,10 +8,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      -name: Checkout repository
-      uses: actions/checkout@v4
-    
-      -name: CI Check
+      - name: Checkout repository
+      uses: actions/checkout@v4     
+      
+      - name: CI Check
       run: echo "Continuous Integration Successfull"
 
+      
+      
+      
   
